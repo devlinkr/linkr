@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            background: url('https://i.imgur.com/GqXGS7v.mp4') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .message {
+            text-align: center;
+            font-size: 36px; /* Medium-large text size */
+            color: #ffffff; /* White text color for better visibility against video background */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+            padding-top: 50px; /* Adjust padding to position the text below the image */
+        }
+
+        img {
+            max-width: 80%; /* Adjust the image width as needed */
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+    </style>
 </head>
 <body>
-    <p>Please wait, you are being redirected...</p>
+    <div class="message">
+        Redirecting... <br>
+        (Stand By)
+    </div>
+
+<img src="https://i.imgur.com/2DhbQae.png" alt="Description of the Image">
 
     <script>
         setTimeout(function() {
             window.location.href = "https://sites.google.com/view/linkrdiscord";
-        }, 3000);  
+        }, 6000);  // 3000 milliseconds = 3 seconds
     </script>
 </body>
 </html>
